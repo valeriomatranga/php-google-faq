@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.argomenti{
+    width: 80vw;
+    margin: auto;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    margin: 0px 10px;
+}
+
+span{
+    font-size: 1.5rem;
+    color: rgb(98, 98, 98);
+    font-weight: 500;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin:10px 20px;
+    list-style: none;
+    font-weight: 500;
+    color:rgb(98, 98, 98) ;
+}
+
+hr{
+    margin-bottom: 100px;
+}
+
+h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 50px;
+}
