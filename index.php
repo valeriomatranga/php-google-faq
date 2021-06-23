@@ -35,13 +35,10 @@
     <main>
 
         <div>
-            <?php foreach ($argomento as $value) { 
-              $risp = explode(';', $value['risposta']);
-              //var_dump($risp);
-            ?>      
+            <?php foreach ($argomento as $value) { ?>      
             <div class='argomenti'>
                 <h2><?php echo $value['domanda']?></h2>
-                <p><?php echo $risp ?></p>
+                <p><?php echo $value['risposta'] ?></p>
             </div>
 
             <?php } ?>

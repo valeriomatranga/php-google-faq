@@ -6,12 +6,16 @@
 }
 .argomenti{
     width: 80vw;
-    margin: auto;
+    margin: 80px auto;
 }
 
 #logo{
     display: flex;
     align-items: center;
+}
+
+nav li{
+    list-style: none;
 }
 
 img{
@@ -31,7 +35,6 @@ ul{
 
 li{
     margin:10px 20px;
-    list-style: none;
     font-weight: 500;
     color:rgb(98, 98, 98) ;
 }
@@ -42,9 +45,8 @@ hr{
 
 h2{
     font-weight: 500;
-    margin-bottom: 20px;
 }
 
 p{
-    margin-bottom: 50px;
+    margin: 25px 0;
 }
