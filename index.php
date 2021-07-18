@@ -38,7 +38,7 @@
             <?php foreach ($argomento as $value) { ?>      
             <div class='argomenti'>
                 <h2><?php echo $value['domanda']?></h2>
-                <p><?php echo $value['risposta'] ?></p>
+                <?php echo $value['risposta'] ?>
             </div>
 
             <?php } ?>
